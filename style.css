@@ -25,7 +25,7 @@ nav {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: clamp(10px,20px,25px);
 }
 
 ul {
@@ -58,12 +58,12 @@ ul li:hover {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: clamp(20px,32px,40px);
     margin-bottom: 20px;
 }
 
 p {
-    font-size: 16px;
+    font-size: clamp(8px , 18px , 25px);
     line-height: 1.6;
     margin-bottom: 20px;
 }
