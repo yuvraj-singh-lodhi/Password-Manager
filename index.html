@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">PassGuardian</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p> Welcome to our password manager, the guardian of your online security. We're delighted to have you here. Your digital safety is our primary concern. Explore our user-friendly interface, manage your passwords effortlessly, and rest easy knowing your information is well-protected. If you have any questions, our support team is here to help. Stay secure online!
+            
+        </p>
+        <h2>Your Password<span class="alert">{Copied!}</span></h2>
+     
+
+        <table>
+            <tr>
+                <th>Website </th>
+                <th>Username</th>
+                <th>Password</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Yuvraj</td>
+                <td>20</td>
+            </tr>            
+        </table>
+
+        <h2>Add A Password</h2>
+        <form action="/submit" method="post">
+            <label for="website">Website:</label>
+            <input type="text" id="website" required>
+        <br><br>
+            <label for="username">Username :</label>
+            <input type="text" id="username" required>
+        <br><br>
+            <label for="password">Password :</label>
+            <input type="password" id="password" required>
+        <br><br>
+            <button class="btn" type="submit">Submit</button>    
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
